@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Test</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      flex-direction: column;
+    }
+    p, h1 {
+      font-size: 24px;
+      color: #333;
+      display: none; /* Sembunyikan awalnya */
+    }
+  </style>
+</head>
+<body>
+  <p id="testText"> aku tidak bisa kehilangan mu  </p>
+  <h1 id="testText2">&copy; 2024 dwiki dharma putra</h1>
+  <script>
+    // Tunggu 5 detik, lalu tampilkan teks
+    setTimeout(function() {
+      document.getElementById('testText').style.display = 'block';
+      document.getElementById('testText2').style.display = 'block';
+    }, 5000);
+  </script>
+</body>
+</html>
